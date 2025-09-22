@@ -29,4 +29,10 @@ void main(List<String> args) {
     print("$angka adalah bilangan ganjil.");
   }
 
+ var number = 10;
+ var genap = number % 2 == 0;
+ print('apakah $number adalah bilangan genap? $genap');
+ var ganjil = number % 2 != 0;
+ print('apakah $number adalah bilangan ganjil $ganjil');
+
 }
