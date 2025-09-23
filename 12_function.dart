@@ -22,6 +22,8 @@ void main() {
   birthDay3("arka", age: 14);
   birthDay3("putra", weight: 45.5);
   birthDay3("rae lil black", height: 170);
+  print("Luas Lingkaran: ${luasLingkaran(10)}");
+  print("Keliling Lingkaran: ${kelilingLingkaran(10)}");
 
   /**
    * untuk function dengan parameter optional
@@ -46,3 +48,36 @@ void birthDay2(String firstName, String lastName, int age) {
 void birthDay3(String name, {int age = 14, weight = 45.5, height = 170}) {
   print("""Happy Birthday $name yang ke $age, beratnya $weight, tingginya $height """);
 }
+
+/**
+ * Arrow Function
+ * with return value
+ */
+
+/**
+ * num adalah tipe data untuk angka
+ * namanya function [luaslingkaran]
+ * memiliki parameter r (jari jari)
+ */
+// buat variable global
+const pi = 3.14; //variable konstan global
+
+num luasLingkaran(num r){
+  return 3.14 * r * r;
+} //  num luaslingkaran(num r) => pi * r * r;
+
+
+// arrow function
+num kelilingLingkaran(num r) => 2 * pi * r;
+
+// default
+// num luasPersegi(num sisi) {
+//   return sisi * sisi;
+// }
+
+num luasPersegi(num sisi) => sisi * sisi;
+/**
+ * => adalah arrow function
+ * hanya dapat digunakan untuk function
+ * yang memiliki satu baris
+ */
