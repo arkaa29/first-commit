@@ -29,19 +29,19 @@
  * ================================
  */
 
-void main() {
-  String? favoriteFood = 'Ayam Geprek';
+// void main() {
+//   String? favoriteFood = 'Ayam Geprek';
 
-  buyMeal(favoriteFood);
-}
+//   buyMeal(favoriteFood);
+// }
 
-void buyMeal(String? favoriteFood) {
- if (favoriteFood == null) {
-   print('Saya membeli roket ayam geprek matah');
- } else {
-   print('Saya membeli bakso pentol gosong di firja');
- }
-}
+// void buyMeal(String? favoriteFood) {
+//  if (favoriteFood == null) {
+//    print('Saya membeli roket ayam geprek matah');
+//  } else {
+//    print('Saya membeli bakso pentol gosong di firja');
+//  }
+// }
 
 /**
  * String? favoriteFood = null
@@ -51,9 +51,23 @@ void buyMeal(String? favoriteFood) {
  * karen perbandingan favoriteFood == null
  * 
  * jika variable fovoriteFood tidak null
- * maka outputnya yang dalam else
+ * maka outputnya yang didalam else
  * Saya membeli bakso pentol gosong di firja
  * 
  * karena dilihat dari operator perbandingannya
  * yakni == null
  */
+
+void main() {
+  String? favoriteFood = 'Mi ayam';
+
+  buyMeal(favoriteFood!);
+  /**
+   * tanda ! disematkan untuk memastikan bahwa
+   * mengambilkan nilai non-null
+   */
+}
+
+void buyMeal(String favoriteFood) {
+  print('saya membeli makanan $favoriteFood');
+}
