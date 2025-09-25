@@ -34,6 +34,19 @@ if (jamSekarang < jamBuka) {  // 24 < 7 // kurang dari jam
   print('Toko tutup permanen');
 }
 
+/**
+ * program menggunakan stdin (input) nilaiUjian
+ * var nilaiUjian type data num
+ * ketentuan nila hasilnya ada dibawah ini
+ * jika nilai kurang dari 0 maka outputnya
+ * "Tidak terdefinisi (tidak terdaftar)"
+ * jika nilai lebih dari 100 maka outputnya
+ * "ini adalah cheater"
+ * 
+ * Nilai anda "A/B/C/D/E"
+ * A-C itu lulus dan D-E itu remedial
+ */
+
   /**
    * Nilai E = <=70  // kurang dari sama dengan 70 nilai (E)
    * Nilai D = 71-15  // 71-75 nilai (D)
