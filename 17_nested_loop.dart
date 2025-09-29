@@ -16,7 +16,7 @@ void main(List<String> args) {
   }
   
   for (var i = 5; i >= 1; i--) {
-
+    // print('baris ke $1');
     var bintang = '';
     for (var j = 1 ; j <= i; j++) {
       bintang += '*';
