@@ -124,4 +124,11 @@ switch (kendaraan) {
   default:
   print('kendaraan apa kocag?');
 }
+
+/**
+ * buatlah list yang berisi nama dari A-E
+ * - dan tampilkan data nama index ke 3
+ * - tambahkan nama baru, lalu hapus nama pertama
+ * - cek apakah nama Eka ada dalam list
+ */
 }
