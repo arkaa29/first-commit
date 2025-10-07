@@ -27,6 +27,8 @@ void main() {
    *  4. Polysirm
    */
 
+
+
   /**
    * 1. Encapsulation
    * diibaratkan sebagai kantong atau wadah yang berfungsi untuk
@@ -42,6 +44,53 @@ void main() {
    * artinya, kita tidak bisa mengubah berat badan ucup guerero
    * secara langsung akan tetapi kita bisa mengubah melalui
    * method (fungsi) pola makan
+   */
+
+
+  /**
+   *  2. Abstraction
+   * Abstraksi juga bisa dibilang merupakan penerapan alami
+   * dari encapsulation.
+   * Abstraksi berarti sebuah objek hanya menunjukkan operanya
+   * secara high-level.
+   * 
+   * Misalnya kita cukup tahu bagaimana Ucup Guerero makan, namun
+   * kita tidak perlu tahu seperti apa metabolisme biologis
+   * dalam tubuh Ucup Guerero yang membuat berat badannya
+   * bertambah
+   */
+
+  /**
+   *  3. Inheritance
+   * Inheritance beberapa objek bisa memiliki
+   * beberapa karakteristik atau perilaku yang sama
+   * 
+   * namun, bukanlah objek yang sama.
+   * 
+   * ex: Ucup Guerero memiliki sifat dan perilaku yang umum
+   * dengan manusia yang lainnya.
+   * seperti memiliki, warna, berat, tinggi, dsb
+   * 
+   * maka dari itu Ucup Guerero adalah sebagai objek turunan
+   * (subclass) mewarisi sifat dan perilaku dari
+   * objek induknya (superclass)
+   * 
+   * Begitu juga dengan objek Vladimir juga mewarisi sifat
+   * dan perilaku yang sama, namun Vladimir bisa berenang
+   * kalau Ucup Guerero tidak bisa berenang
+   */
+
+  /**
+   *  4. Polymorphism
+   * dalam bahasa Yunani berarti "banyak bentul"
+   * sederhananya objek dapat memiliki bentuk
+   * atau emplementasi yang berbeda-beda pada suatu method
+   * yang sama.
+   * 
+   * Semua manusia bergerak, namun tentu gerak Ucup Guerero
+   * dan Vladimir memiliki cara gerak yang berbeda.
+   * perbedaan bentuk atau cara gerak tersebut merupakan
+   * contoh dari Polymorphism.
    */
 
   var ucup = Manusia('kuning Langsat', 'Hitam', 60.0);
