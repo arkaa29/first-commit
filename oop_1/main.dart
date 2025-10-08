@@ -44,5 +44,7 @@ void main(List<String> args) {
    *    - heal()
    */
 
-  var hewan = Hewan(name, color, weight);
+  // ketika memanggil kelas dengan contructor
+  // maka kita harus mengisi value dari properties
+  var hewan = Hewan('Ucup Guerero', 'Orange - White', 3.5);
 }
