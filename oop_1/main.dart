@@ -1,5 +1,6 @@
-import 'animal.dart';
-import 'plants.dart';
+import '27_class_animal.dart';
+import '28_class_plants.dart';
+import '29_constructor.dart';
 import 'character.dart';
 
 void main(List<String> args) {
@@ -42,4 +43,6 @@ void main(List<String> args) {
    *    - attack()
    *    - heal()
    */
+
+  var hewan = Hewan(name, color, weight);
 }
