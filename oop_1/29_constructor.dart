@@ -31,7 +31,7 @@ Hewan(this.name, this.color, this.weight);
 
   // methods
   void eat() {
-    print('$name sedang makan ayam');
+    print('$name sedang makan ayam berwarna $color');
   }
 
   void sleep() {
