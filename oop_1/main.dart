@@ -53,5 +53,9 @@ void main(List<String> args) {
   ..name = 'vladimir'
   ..color = 'red'
   ..eat();
-  
+  /**
+   * titik koma (;) menandakan berakhirnya sebuah baris kode
+   * jangan lupa titik koma (;)
+   */
+
 }
